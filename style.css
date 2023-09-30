@@ -1,0 +1,41 @@
+.test_image_and_result{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(164, 173, 178);
+    margin-bottom: 80px;
+    font-family: 'Gabarito', cursive;
+}
+
+.test_image_and_result:hover{
+    transform: scale(1.01);
+}
+
+h5{
+    background-color: aliceblue;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+b{
+    color: rgb(108, 59, 181);
+}
+
+
+
+@keyframes example{
+    from {box-shadow: 1px 1px 38px black;}
+    to {box-shadow: 1px 1px 38px black;}
+}
+
+footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+line-height: 2;
+background-color: #d8cfff;
+font-family: 'Gabarito', cursive;
+
+}
